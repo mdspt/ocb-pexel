@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+</head>
+<body>
+    <div>PEXEL</div>
+    <div id="search-box">
+        <form action="" method="get">
+            <div class="form-example">
+                <label for="search-for">Search image:</label>
+                <input type="text" id="search" required>
+                <label for="image-count">How many image:</label>
+                <input type="number" id="image-count" min="3" max="10" required>
+            </div>
+            <div class="form-example">
+                <input type="button" value="Search!" onclick="submitForm()">
+            </div>
+        </form>
+    </div>
+    <div id="app"></div>
+</body>
+<script src="script.js"></script>
+</html>
